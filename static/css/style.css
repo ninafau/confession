@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif; /* Gunakan font Arial */
+    background: #d88181; /* Warna merah */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff; /* Kontras warna teks */
+    margin-top: 50px;
+}
+
+form {
+    background: #ffffff;
+    width: 90%;
+    max-width: 500px; /* Batasi lebar form */
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Rata tengah teks di dalam form */
+    font-family: 'Arial', sans-serif; /* Gunakan font Arial */
+}
+
+input, textarea {
+    width: 100%;
+    max-width: 400px; /* Batasi lebar kolom */
+    padding: 10px;
+    margin: 10px auto; /* Ratakan ke tengah */
+    border-radius: 5px;
+    border: 1px solid #de8888;
+    display: block; /* Pastikan elemen menjadi blok */
+    font-size: 1em;
+    box-sizing: border-box; /* Pastikan ukuran tetap */
+}
+
+textarea {
+    resize: none; /* Mencegah textarea diperbesar */
+    height: 120px; /* Tinggi yang lebih baik */
+}
+
+button {
+    background-color: #de8888; /* Warna tombol pink */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Lebar tombol penuh */
+    max-width: 400px; /* Batasi lebar maksimal tombol */
+}
+
+button:hover {
+    background-color: #de8888; /* Warna hover tombol */
+}
+
+h2 {
+    text-align: center;
+    color: #fff; /* Kontras warna teks */
+    font-size: 1.5em;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2em;
+    color: #fff; /* Warna teks paragraf */
+}
